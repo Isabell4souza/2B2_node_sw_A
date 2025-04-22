@@ -92,7 +92,7 @@ function deposit(){
             name: 'accountName',
             message:'Informe o nome da conta a depositar:'
         }
-    ]).then([answer] => {
+    ]).then((answer) => {
         const accountName = answer['accountName']
     }) 
 
